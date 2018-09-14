@@ -34,5 +34,5 @@ int main(){
     cout << d[0].get_area() << endl;
     cout << d[1].get_area() << endl;
 
-    return 0;
+    
 }
