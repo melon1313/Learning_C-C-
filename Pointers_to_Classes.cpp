@@ -11,9 +11,9 @@ class CREctangle{
         int get_area(void){ return (weight * hight);}
 };
 
-CREctangle::set_value(int a, int b){
+void CREctangle::set_value(int a, int b){
     weight = a;
-    hight = v;
+    hight = b;
 }
 
 int main(){
@@ -34,5 +34,5 @@ int main(){
     cout << d[0].get_area() << endl;
     cout << d[1].get_area() << endl;
 
-    
+    return 0;
 }
